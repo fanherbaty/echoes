@@ -1,0 +1,1640 @@
+{
+  "b": 30,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "testChamber",
+  "name": "testChamber",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 8,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 20,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 8,
+    "gridHeight": 8,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 0,
+    "gridAlpha": 0,
+    "snap": true,
+    "zoomFactor": 3.85140000000001,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 8,
+      "layer": "",
+      "locked": false,
+      "name": "bricks",
+      "persistentUuid": "9095dfe7-7b93-44d4-ae26-3454168f5c6b",
+      "width": 168,
+      "x": -72,
+      "y": 176,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 72,
+      "layer": "BG",
+      "locked": false,
+      "name": "pattern",
+      "persistentUuid": "76a643f0-212b-48d4-964c-c2ae9452d6ce",
+      "width": 136,
+      "x": -56,
+      "y": 184,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 72,
+      "layer": "",
+      "locked": false,
+      "name": "log",
+      "persistentUuid": "c5c77ef5-2110-4c5e-9450-8b35be5a08da",
+      "width": 8,
+      "x": -64,
+      "y": 184,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 8,
+      "layer": "",
+      "locked": false,
+      "name": "bricks",
+      "persistentUuid": "302df1e8-88e6-4270-b4ca-09ac9e5aa72c",
+      "width": 40,
+      "x": 120,
+      "y": 168,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 80,
+      "layer": "",
+      "locked": false,
+      "name": "log",
+      "persistentUuid": "8e042ce5-3754-4433-b2fd-b9da77314dc9",
+      "width": 8,
+      "x": 136,
+      "y": 176,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 128,
+      "layer": "",
+      "locked": false,
+      "name": "enemy1",
+      "persistentUuid": "d56738c9-1361-4f18-880d-05265fe569f9",
+      "width": 120,
+      "x": 34,
+      "y": 64,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 8,
+      "layer": "",
+      "locked": false,
+      "name": "bricks",
+      "persistentUuid": "909dc0b1-ab4a-4d5b-9b57-99f595480940",
+      "width": 336,
+      "x": -80,
+      "y": 256,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 56,
+      "layer": "",
+      "locked": false,
+      "name": "log",
+      "persistentUuid": "8baef792-1dc5-457d-9ad9-42b1572250db",
+      "width": 8,
+      "x": -8,
+      "y": 120,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 8,
+      "layer": "",
+      "locked": false,
+      "name": "bricks",
+      "persistentUuid": "2283d14d-deb5-45b8-9482-14294a6cf1e6",
+      "width": 80,
+      "x": -16,
+      "y": 112,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 56,
+      "layer": "BG",
+      "locked": false,
+      "name": "pattern",
+      "persistentUuid": "4385bda4-0819-47ba-aed5-417e6eff0fdc",
+      "width": 48,
+      "x": 0,
+      "y": 120,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 8,
+      "layer": "Player",
+      "locked": false,
+      "name": "player",
+      "persistentUuid": "9cb63f04-889e-43e6-a470-374eef5530b8",
+      "width": 12,
+      "x": -64,
+      "y": 168,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 8,
+      "layer": "",
+      "locked": false,
+      "name": "bricks",
+      "persistentUuid": "6644c8c2-9b96-4669-865a-698c5599a416",
+      "width": 24,
+      "x": 176,
+      "y": 184,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 8,
+      "layer": "",
+      "locked": false,
+      "name": "bricks",
+      "persistentUuid": "cb6c53d4-2c36-4992-9a59-2a5eceb8897a",
+      "width": 24,
+      "x": 216,
+      "y": 192,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "log",
+      "persistentUuid": "6ad7207f-a87d-48b2-84af-e58356140073",
+      "width": 8,
+      "x": 184,
+      "y": 192,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 56,
+      "layer": "",
+      "locked": false,
+      "name": "log",
+      "persistentUuid": "736147bc-e693-4f42-8aef-7921f2a34f36",
+      "width": 8,
+      "x": 224,
+      "y": 200,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 8,
+      "layer": "",
+      "locked": false,
+      "name": "bricks",
+      "persistentUuid": "11559aba-7bcf-4f7d-91ea-e18208cdb78a",
+      "width": 48,
+      "x": 208,
+      "y": 144,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 88,
+      "layer": "",
+      "locked": false,
+      "name": "log",
+      "persistentUuid": "f2d1ce6b-e8dd-4c70-b26d-afa7052bfdc1",
+      "width": 8,
+      "x": 216,
+      "y": 56,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144,
+      "layer": "BG",
+      "locked": false,
+      "name": "pattern",
+      "persistentUuid": "30505228-0bfd-4cbf-a747-f0f1790a8ba4",
+      "width": 32,
+      "x": 224,
+      "y": 0,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "door",
+      "persistentUuid": "5170420c-9e5b-48f0-9b45-b1b631e15418",
+      "width": 0,
+      "x": 16,
+      "y": 96,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 8,
+      "layer": "",
+      "locked": false,
+      "name": "bricks",
+      "persistentUuid": "e94ab32d-1ca4-40bd-ad7d-4363cce5fe7e",
+      "width": 40,
+      "x": 120,
+      "y": 128,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 72,
+      "layer": "BG",
+      "locked": false,
+      "name": "pattern",
+      "persistentUuid": "84650cfa-f399-4b11-9352-24e48eb800e6",
+      "width": 24,
+      "x": 128,
+      "y": 56,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 8,
+      "layer": "",
+      "locked": false,
+      "name": "bricks",
+      "persistentUuid": "73bf094e-2044-44ec-8123-89b64797e247",
+      "width": 112,
+      "x": 120,
+      "y": 48,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "",
+      "locked": false,
+      "name": "log",
+      "persistentUuid": "7d1def81-3701-44fd-b197-03b93329020d",
+      "width": 8,
+      "x": 128,
+      "y": 0,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "BG",
+      "locked": false,
+      "name": "pattern",
+      "persistentUuid": "f3eea10d-2e9c-4626-a90b-8aa608c5be87",
+      "width": 88,
+      "x": 136,
+      "y": 0,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 128,
+      "layer": "",
+      "locked": false,
+      "name": "enemy1",
+      "persistentUuid": "e425d22e-5689-4c83-90de-507db2b985d3",
+      "width": 120,
+      "x": 56,
+      "y": 48,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 128,
+      "layer": "",
+      "locked": false,
+      "name": "enemy1",
+      "persistentUuid": "8219168b-996f-4cff-bb35-d237e45dbaf2",
+      "width": 120,
+      "x": 74,
+      "y": 66,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 128,
+      "layer": "",
+      "locked": false,
+      "name": "enemy1",
+      "persistentUuid": "14d756f5-191f-47c1-8c44-a9251618bdbd",
+      "width": 120,
+      "x": 186,
+      "y": 72,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 128,
+      "layer": "",
+      "locked": false,
+      "name": "enemy1",
+      "persistentUuid": "8ad56b6e-cc76-4e4d-ae98-3c8e9acb65b1",
+      "width": 120,
+      "x": 98,
+      "y": 18,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 128,
+      "layer": "",
+      "locked": false,
+      "name": "enemy1",
+      "persistentUuid": "3e78424a-a021-4513-9c32-aa9f30097d16",
+      "width": 120,
+      "x": 229.05406188964844,
+      "y": 167.4549560546875,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 128,
+      "layer": "",
+      "locked": false,
+      "name": "enemy1",
+      "persistentUuid": "25b41496-1937-4514-8b05-161ea9266611",
+      "width": 120,
+      "x": 226,
+      "y": 170,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 8,
+      "layer": "",
+      "locked": false,
+      "name": "bricks",
+      "persistentUuid": "b68d94dd-6d4d-4861-949b-7c47da0f1eb5",
+      "width": 256,
+      "x": 0,
+      "y": -8,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Hidden",
+      "locked": false,
+      "name": "cam_mask",
+      "persistentUuid": "0d0eecb5-41fb-4804-bcf1-1387af2ca13b",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Hidden",
+      "locked": false,
+      "name": "cam_mask",
+      "persistentUuid": "307889c9-6f8a-4cd0-ad63-b515681dd0b6",
+      "width": 0,
+      "x": -256,
+      "y": 0,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 72,
+      "layer": "",
+      "locked": false,
+      "name": "log",
+      "persistentUuid": "8c4667a4-4249-4019-a675-b4b488a53bfc",
+      "width": 8,
+      "x": 79.39268493652344,
+      "y": 184,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 72,
+      "layer": "",
+      "locked": false,
+      "name": "log",
+      "persistentUuid": "d90e2a76-f7aa-48c1-9b7a-80a7b5ad4850",
+      "width": 8,
+      "x": 80,
+      "y": 184,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 24,
+      "layer": "",
+      "locked": false,
+      "name": "log",
+      "persistentUuid": "cec7fa19-a55d-46ad-b756-0ca8799a60e5",
+      "width": 8,
+      "x": -40,
+      "y": 152,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 8,
+      "layer": "",
+      "locked": false,
+      "name": "bricks",
+      "persistentUuid": "37a4adda-50e5-45d7-b18f-fd6124fd7c5a",
+      "width": 24,
+      "x": -48,
+      "y": 144,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 56,
+      "layer": "",
+      "locked": false,
+      "name": "log",
+      "persistentUuid": "9db3156e-3617-462c-8d79-b2c63449165d",
+      "width": 8,
+      "x": 48,
+      "y": 120,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 56,
+      "layer": "",
+      "locked": false,
+      "name": "log",
+      "persistentUuid": "c75dec0b-7ee2-4e9d-a19c-16c3180e2c1d",
+      "width": 8,
+      "x": 48,
+      "y": 120,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "name": "player",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AdvancedJump",
+          "type": "AdvancedJump::AdvancedJump",
+          "CoyoteTimeFrameDuration": 1,
+          "PlatformerBehavior": "PlatformerObject",
+          "CanCoyoteJump": false,
+          "WasInTheAir": false
+        },
+        {
+          "name": "IdleTracker",
+          "type": "IdleTracker::IdleTracker",
+          "LastX": 0,
+          "LastY": 0,
+          "IsFarFromLastPosition": false,
+          "DurationBeforeIdle": 5,
+          "IdleDistanceTolerance": 10,
+          "IdleTime": 0
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "canGrabPlatforms": true,
+          "maxSpeed": 150,
+          "acceleration": 1500,
+          "deceleration": 1100,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 240,
+          "jumpSustainTime": 0.6,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 500,
+          "slopeMaxAngle": 60,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.10000000149011612,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "img/player/player_idle_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 8,
+                    "y": 8
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 16
+                      },
+                      {
+                        "x": 5,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "img/player/player_idle_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 8,
+                    "y": 8
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 16
+                      },
+                      {
+                        "x": 5,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "img/player/player_idle_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 8,
+                    "y": 8
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 16
+                      },
+                      {
+                        "x": 5,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "img/player/player_idle_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 8,
+                    "y": 8
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 16
+                      },
+                      {
+                        "x": 5,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.10000000149011612,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "img/player/player_run1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 8,
+                    "y": 8
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 16
+                      },
+                      {
+                        "x": 5,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "img/player/player_run2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 8,
+                    "y": 8
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 16
+                      },
+                      {
+                        "x": 5,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "img/player/player_run3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 8,
+                    "y": 8
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 16
+                      },
+                      {
+                        "x": 5,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "img/player/player_run4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 8,
+                    "y": 8
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 16
+                      },
+                      {
+                        "x": 5,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "img/player/player_jump.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 8,
+                    "y": 8
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 4
+                      },
+                      {
+                        "x": 11,
+                        "y": 16
+                      },
+                      {
+                        "x": 5,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/player/player_ledge_grab.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 8
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 8,
+      "name": "bricks",
+      "tags": "",
+      "texture": "img/ground/bricks.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "height": 16,
+      "name": "pattern",
+      "tags": "",
+      "texture": "img/ground/pattern.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "height": 8,
+      "name": "log",
+      "tags": "",
+      "texture": "img/ground/log.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 8,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "name": "enemy1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "enemyType",
+          "type": "string",
+          "value": "1"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Bounce",
+          "type": "Bounce::Bounce",
+          "OldX": 0,
+          "OldY": 0,
+          "OldForceAngle": 0,
+          "OldForceLength": 0,
+          "NormalAngle": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.15000000596046448,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/enemies/enemy1/enemy1_idle1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/enemies/enemy1/enemy1_idle2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/enemies/enemy1/enemy1_idle3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "door",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/door1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/door2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/door3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/door4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/door5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/door6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/door7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/door8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/door9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/door10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/door11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/door12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/door13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/door14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cam_mask",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 0.5,
+            "blue": 1,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "img/camera_mask.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "main"
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 117440512,
+      "ambientLightColorG": 6025840,
+      "ambientLightColorR": 8478176,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "BG",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 7270472,
+      "ambientLightColorG": 7991552,
+      "ambientLightColorR": 665904,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 100663296,
+      "ambientLightColorG": 6025840,
+      "ambientLightColorR": 8331088,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Player",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 6025840,
+      "ambientLightColorR": 8478176,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Hidden",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
+    {
+      "name": "Bounce",
+      "type": "Bounce::Bounce"
+    },
+    {
+      "name": "IdleTracker",
+      "type": "IdleTracker::IdleTracker"
+    },
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    }
+  ]
+}

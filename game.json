@@ -1,0 +1,398 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "13439d1a-a4d4-4b07-bb24-93f8a4cef22a",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Echoes",
+    "author": "",
+    "windowWidth": 256,
+    "windowHeight": 256,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 60,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "img/player/player_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/player/player_idle_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/player/player_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/player/player_idle_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/player/player_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/player/player_idle_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/player/player_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/player/player_idle_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/player/player_run1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/player/player_run1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/player/player_run2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/player/player_run2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/player/player_run3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/player/player_run3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/player/player_run4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/player/player_run4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/ground/bricks.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/ground/bricks.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/player/player_jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/player/player_jump.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/ground/pattern.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/ground/pattern.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/ground/log.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/ground/log.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/player/smoke_particle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/player/smoke_particle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/enemies/enemy1/enemy1_idle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/enemies/enemy1/enemy1_idle1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/enemies/enemy1/enemy1_idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/enemies/enemy1/enemy1_idle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/enemies/enemy1/enemy1_idle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/enemies/enemy1/enemy1_idle3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/door1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/door1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/door2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/door2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/door3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/door3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/door4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/door4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/door5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/door5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/door6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/door6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/door7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/door7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/door8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/door8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/door9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/door9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/door10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/door10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/door11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/door11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/door12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/door12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/door13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/door13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/door14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/door14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/camera_mask.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/camera_mask.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/player/player_ledge_grab.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img/player/player_ledge_grab.png",
+        "smoothed": false,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/testchamber"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/main"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/playermovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/enemies"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/idletracker"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/bounce"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/advancedjump"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/roombasedcameramovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/discordrichpresence"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
