@@ -69,20 +69,7 @@
               "parameters": [
                 "enemy1",
                 "Bounce",
-                "log",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Bounce::Bounce::BounceOff"
-              },
-              "parameters": [
-                "enemy1",
-                "Bounce",
-                "bricks",
+                "solids",
                 ""
               ],
               "subInstructions": []

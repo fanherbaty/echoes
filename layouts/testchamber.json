@@ -21,10 +21,30 @@
     "gridColor": 0,
     "gridAlpha": 0,
     "snap": true,
-    "zoomFactor": 3.85140000000001,
+    "zoomFactor": 2.1554000000000006,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "enemy",
+      "objects": [
+        {
+          "name": "enemy1"
+        }
+      ]
+    },
+    {
+      "name": "solids",
+      "objects": [
+        {
+          "name": "bricks"
+        },
+        {
+          "name": "log"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -111,7 +131,7 @@
       "angle": 0,
       "customSize": false,
       "height": 128,
-      "layer": "",
+      "layer": "Enemies",
       "locked": false,
       "name": "enemy1",
       "persistentUuid": "d56738c9-1361-4f18-880d-05265fe569f9",
@@ -196,7 +216,7 @@
       "name": "player",
       "persistentUuid": "9cb63f04-889e-43e6-a470-374eef5530b8",
       "width": 12,
-      "x": -64,
+      "x": 72,
       "y": 168,
       "zOrder": 1,
       "numberProperties": [],
@@ -415,7 +435,7 @@
       "angle": 0,
       "customSize": false,
       "height": 128,
-      "layer": "",
+      "layer": "Enemies",
       "locked": false,
       "name": "enemy1",
       "persistentUuid": "e425d22e-5689-4c83-90de-507db2b985d3",
@@ -431,7 +451,7 @@
       "angle": 0,
       "customSize": false,
       "height": 128,
-      "layer": "",
+      "layer": "Enemies",
       "locked": false,
       "name": "enemy1",
       "persistentUuid": "8219168b-996f-4cff-bb35-d237e45dbaf2",
@@ -447,7 +467,7 @@
       "angle": 0,
       "customSize": false,
       "height": 128,
-      "layer": "",
+      "layer": "Enemies",
       "locked": false,
       "name": "enemy1",
       "persistentUuid": "14d756f5-191f-47c1-8c44-a9251618bdbd",
@@ -463,7 +483,7 @@
       "angle": 0,
       "customSize": false,
       "height": 128,
-      "layer": "",
+      "layer": "Enemies",
       "locked": false,
       "name": "enemy1",
       "persistentUuid": "8ad56b6e-cc76-4e4d-ae98-3c8e9acb65b1",
@@ -479,7 +499,7 @@
       "angle": 0,
       "customSize": false,
       "height": 128,
-      "layer": "",
+      "layer": "Enemies",
       "locked": false,
       "name": "enemy1",
       "persistentUuid": "3e78424a-a021-4513-9c32-aa9f30097d16",
@@ -495,13 +515,13 @@
       "angle": 0,
       "customSize": false,
       "height": 128,
-      "layer": "",
+      "layer": "Enemies",
       "locked": false,
       "name": "enemy1",
       "persistentUuid": "25b41496-1937-4514-8b05-161ea9266611",
       "width": 120,
-      "x": 226,
-      "y": 170,
+      "x": 176,
+      "y": 146,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -613,7 +633,7 @@
       "persistentUuid": "37a4adda-50e5-45d7-b18f-fd6124fd7c5a",
       "width": 24,
       "x": -48,
-      "y": 144,
+      "y": 148,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -650,6 +670,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "bricks",
+      "persistentUuid": "795bc23e-00d2-49cd-8caa-16bcf42251ca",
+      "width": 0,
+      "x": 96,
+      "y": 120,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Hidden",
+      "locked": false,
+      "name": "cam_mask",
+      "persistentUuid": "058df298-aaa7-4c4e-9797-0246805623c8",
+      "width": 0,
+      "x": -256,
+      "y": 0,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -680,21 +732,24 @@
           "IdleTime": 0
         },
         {
+          "canGoDownFromJumpthru": false,
+          "canGrabPlatforms": true,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1100,
+          "jumpSustainTime": 1,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "canGrabPlatforms": true,
+          "xGrabTolerance": 4,
+          "yGrabOffset": -2,
+          "useLegacyTrajectory": false,
           "maxSpeed": 150,
           "acceleration": 1500,
-          "deceleration": 1100,
           "gravity": 1000,
           "ignoreDefaultControls": true,
           "jumpSpeed": 240,
-          "jumpSustainTime": 0.6,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 500,
-          "slopeMaxAngle": 60,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
+          "slopeMaxAngle": 60
         }
       ],
       "animations": [
@@ -1072,8 +1127,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 8
+                    "x": 2,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1602,6 +1657,32 @@
       "visibility": true,
       "cameras": [],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 100663296,
+      "ambientLightColorG": 6031344,
+      "ambientLightColorR": 8842896,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Enemies",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "AdvancedBloom",
+          "name": "Effect",
+          "doubleParameters": {
+            "bloomScale": 3,
+            "blur": 4,
+            "brightness": 1,
+            "padding": 0,
+            "quality": 8,
+            "threshold": 0.5
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ]
     },
     {
       "ambientLightColorB": 0,

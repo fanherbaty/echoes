@@ -29,6 +29,7 @@
           "description": "Bounce the object off another object it is currently colliding with, according to the angle and the speed of forces applied on the object.\nMake sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.",
           "fullName": "Bounce off another object",
           "functionType": "Action",
+          "group": "",
           "name": "BounceOff",
           "private": false,
           "sentence": "Bounce _PARAM0_ off _PARAM2_",
@@ -240,6 +241,7 @@
           "description": "Bounce the object off another object it is currently colliding with, according to the angle and the speed of forces applied on the object.\nThe bounce will always be calculated *to go toward the specified angle (the \"normal angle\")*. For example, if the object is arriving at this exact angle, it will bounce in the opposite direction.\n\nMake sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.",
           "fullName": "Bounce off another object toward a specified angle",
           "functionType": "Action",
+          "group": "",
           "name": "BounceOffSpecificAngle",
           "private": false,
           "sentence": "Bounce _PARAM0_ off _PARAM2_ assuming a normal angle of _PARAM3_",
@@ -461,6 +463,7 @@
           "description": "Bounce the object off another object it is currently colliding with, according to the angle and the speed of forces applied on the object.\nThe bounce will always be vertical, like if the object is *colliding a perfectly horizontal obstacle* (like the top/bottom of the screen in a pong game). For example, if the object is arriving with an angle of exactly 90 degrees, it will bounce in the opposite direction: -90 degrees.\n\nMake sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.",
           "fullName": "Bounce vertically",
           "functionType": "Action",
+          "group": "",
           "name": "BounceOffVertically",
           "private": false,
           "sentence": "Bounce _PARAM0_ off _PARAM2_ - always vertically",
@@ -527,6 +530,7 @@
           "description": "Bounce the object off another object it is currently colliding with, according to the angle and the speed of forces applied on the object.\nThe bounce will always be horizontal, like if the object is *colliding a perfectly vertical obstacle* (like paddles in a pong game). For example, if the object is arriving with an angle of exactly 0 degrees, it will bounce in the opposite direction: 180 degrees.\n\nMake sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.",
           "fullName": "Bounce horizontally",
           "functionType": "Action",
+          "group": "",
           "name": "BounceOffHorizontally",
           "private": false,
           "sentence": "Bounce _PARAM0_ off _PARAM2_ - always horizontally",
@@ -596,6 +600,7 @@
           "type": "Number",
           "label": "",
           "description": "",
+          "group": "",
           "extraInformation": [],
           "hidden": true,
           "name": "OldX"
@@ -605,6 +610,7 @@
           "type": "Number",
           "label": "",
           "description": "",
+          "group": "",
           "extraInformation": [],
           "hidden": true,
           "name": "OldY"
@@ -614,6 +620,7 @@
           "type": "Number",
           "label": "",
           "description": "",
+          "group": "",
           "extraInformation": [],
           "hidden": true,
           "name": "OldForceAngle"
@@ -623,6 +630,7 @@
           "type": "Number",
           "label": "",
           "description": "",
+          "group": "",
           "extraInformation": [],
           "hidden": true,
           "name": "OldForceLength"
@@ -632,6 +640,7 @@
           "type": "Number",
           "label": "",
           "description": "",
+          "group": "",
           "extraInformation": [],
           "hidden": true,
           "name": "NormalAngle"

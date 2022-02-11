@@ -53,7 +53,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "playerMovement"
+      "target": "player"
     },
     {
       "disabled": false,
